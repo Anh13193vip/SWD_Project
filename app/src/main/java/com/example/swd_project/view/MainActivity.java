@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements MainView{
 
         btnLogin = (TextView)findViewById(R.id.btnLogin);
         btnSignUp = (TextView)findViewById(R.id.btnSignUp);
-        txtUsername = (EditText) findViewById(R.id.txtUsername);
-        txtPassword = (EditText) findViewById(R.id.txtPassword);
+        txtUsername = (EditText)findViewById(R.id.txtUsername);
+        txtPassword = (EditText)findViewById(R.id.txtPassword);
     }
 
     public void clickToLogin(View view) {
